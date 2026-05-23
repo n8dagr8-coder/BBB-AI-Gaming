@@ -1,0 +1,4 @@
+Backups/
+*.tar.gz
+*.log
+.env

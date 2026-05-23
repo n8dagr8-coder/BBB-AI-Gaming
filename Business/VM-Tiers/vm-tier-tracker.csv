@@ -1,0 +1,4 @@
+Tier,VM Name,vCPU,RAM GB,Storage GB,GPU Access,Allowed Apps,Monthly Price,Notes
+Light,office-vm,2,4,80,None,Browser Office AI Shortcuts,TBD,Locked low-tier office
+Standard,dev-vm,4,8,120,None,VSCode Browser SSH,TBD,Dev tier
+Premium,admin-vm,12,24,180,Admin Only,Full Admin Stack,Internal Only,Not rented

@@ -1,0 +1,63 @@
+===== BIGBRAINBRAND DAILY OPS REPORT =====
+Date: Sat May 23 01:39:49 PM PDT 2026
+
+===== ADMIN VM =====
+admin-VM
+ 13:39:49 up 10:48,  3 users,  load average: 0.00, 0.02, 0.00
+               total        used        free      shared  buff/cache   available
+Mem:            22Gi       2.4Gi       2.9Gi       159Mi        18Gi        20Gi
+Swap:          8.0Gi          0B       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda2       176G   29G  138G  18% /
+
+===== EPYC HOST =====
+epyc-brain
+ 20:39:54 up 1 day, 21:25,  2 users,  load average: 0.35, 0.65, 1.72
+               total        used        free      shared  buff/cache   available
+Mem:            61Gi        31Gi       4.0Gi        55Mi        26Gi        29Gi
+Swap:          8.0Gi       2.5Gi       5.5Gi
+Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv  3.6T  703G  2.8T  20% /
+
+===== VM STATUS =====
+ Id   Name             State
+---------------------------------
+ 24   admin-vm         running
+ -    dev-suite        shut off
+ -    gaming           shut off
+ -    media-creation   shut off
+ -    office           shut off
+
+
+===== SERVICES =====
+===== BBB SERVICE CHECK =====
+[UP]   OpenWebUI (3000)
+[UP]   Grafana (3001)
+[UP]   n8n (5678)
+[UP]   Prometheus (9090)
+[UP]   Portainer (9443)
+[UP]   Ollama (11434)
+
+===== OLLAMA MODELS =====
+"qwen2.5-coder:7b"
+"llama3.1:8b"
+"mistral-small:24b"
+"qwen3:32b"
+"deepseek-r1:32b"
+"qwen3:4b"
+"qwen3:8b"
+"phi4-mini:latest"
+"deepseek-r1:14b"
+"qwen3:14b"
+"qwen3.5:27b"
+"qwq:32b"
+"gemma3:27b"
+"qwen3.6:27b"
+"gpt-oss:120b"
+"llama3.2-vision:90b"
+"qwen3:235b"
+"deepseek-r1:70b"
+"nomic-embed-text:latest"
+"qwen2.5-coder:32b"
+"llama3.3:70b"
+"llama3.3:latest"

@@ -1,0 +1,37 @@
+===== BBB CLIENT VM TEMPLATE =====
+
+Client Name:
+Company:
+Email:
+Phone:
+
+Assigned VM:
+Tier:
+CPU:
+RAM:
+Storage:
+GPU Access:
+
+Allowed Services:
+- Browser
+- Office
+- VSCode
+- AI Access
+
+Restrictions:
+- No sudo
+- No root access
+- Limited installs
+- Activity monitored
+
+Backup Policy:
+- Daily backups
+- Weekly snapshots
+
+Billing:
+Monthly Price:
+Due Date:
+Status:
+
+Notes:
+

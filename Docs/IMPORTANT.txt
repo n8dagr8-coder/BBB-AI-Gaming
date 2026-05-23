@@ -1,0 +1,15 @@
+BBB ADMIN VM
+
+Infrastructure:
+- Portainer: https://192.168.0.101:9443
+- Grafana: http://192.168.0.101:3001
+- Open WebUI: http://192.168.0.101:3000
+- n8n: http://192.168.0.101:5678
+- Prometheus: http://192.168.0.101:9090
+
+Models:
+- qwen2.5-coder:7b
+
+Snapshots:
+- post-ai-stack
+- post-full-admin-ai-gui
