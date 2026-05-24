@@ -1,0 +1,1 @@
+The monitor displays a black rectangle with a pixelated pattern inside of it.
