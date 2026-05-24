@@ -1,0 +1,23 @@
+EPYC HOST
+│
+├── admin-vm
+│   ├── dashboards
+│   ├── orchestration
+│   ├── AI services
+│   └── creator tooling
+│
+├── gaming-vm
+│   ├── AI spectator
+│   ├── gameplay analysis
+│   └── future OBS/Twitch
+│
+├── media-vm
+│   ├── AI rendering
+│   ├── AI video
+│   └── creator workflows
+│
+└── NAS / Backbone
+    ├── archives
+    ├── backups
+    ├── datasets
+    └── VM storage
