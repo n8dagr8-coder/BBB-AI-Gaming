@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BBB AI Gaming</title>
+
+<style>
+body{
+    background:#0f0f0f;
+    color:#eee;
+    font-family:Arial;
+    padding:40px;
+}
+
+.card{
+    background:#1a1a1a;
+    border:1px solid #333;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:25px;
+}
+
+h1{
+    color:#7df9ff;
+}
+
+pre{
+    white-space:pre-wrap;
+    color:#7df9ff;
+}
+</style>
+</head>
+
+<body>
+
+<h1>BBB AI Gaming Dashboard</h1>
+
+<div class="card">
+<h2>Session Summary</h2>
+<pre id="summary">Loading...</pre>
+</div>
+
+<script>
+async function loadSummary() {
+    try {
+        const response = await fetch('/summary');
+        const text = await response.text();
+
+        document.getElementById('summary').innerText = text;
+    } catch (e) {
+        document.getElementById('summary').innerText = "Error loading summary.";
+    }
+}
+
+loadSummary();
+setInterval(loadSummary, 10000);
+</script>
+
+</body>
+</html>
