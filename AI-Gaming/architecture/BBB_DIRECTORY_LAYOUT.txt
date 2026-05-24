@@ -1,0 +1,26 @@
+BBB-AI-Gaming/
+│
+├── ai/
+│   ├── vision/
+│   ├── voice/
+│   ├── highlights/
+│   ├── pipeline/
+│   └── dashboards/
+│
+├── platform/
+│   ├── gaming/
+│   ├── media/
+│   ├── office/
+│   └── admin/
+│
+├── runtime/
+│   ├── logs/
+│   ├── captures/
+│   ├── exports/
+│   └── temp/
+│
+├── services/
+├── scripts/
+├── configs/
+├── docs/
+└── architecture/
