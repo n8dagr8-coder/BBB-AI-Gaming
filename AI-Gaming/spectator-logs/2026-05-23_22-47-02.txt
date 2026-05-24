@@ -1,0 +1,1 @@
+Game paused with minimap and health bar displayed in lower right corner.

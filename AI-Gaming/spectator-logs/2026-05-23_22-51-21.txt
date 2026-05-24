@@ -1,0 +1,1 @@
+Image displays a black and white barcode-like pattern.

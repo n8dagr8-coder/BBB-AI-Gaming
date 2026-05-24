@@ -1,0 +1,1 @@
+Screen displays pixelated image of gray rectangle with black border and lines crossing inside it.

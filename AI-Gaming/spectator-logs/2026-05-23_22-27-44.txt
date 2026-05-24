@@ -1,0 +1,1 @@
+Gray rectangles with black lines and text.

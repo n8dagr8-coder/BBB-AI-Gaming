@@ -1,0 +1,1 @@
+Glitching grey rectangle with black diagonal lines and white border.
