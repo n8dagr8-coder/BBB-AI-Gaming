@@ -1,0 +1,33 @@
+USERS
+│
+├── Gaming Clients
+├── Creator Clients
+├── Office Clients
+└── Admin Operators
+
+BBB PLATFORM
+│
+├── AI Layer
+│   ├── Vision
+│   ├── Voice
+│   ├── Highlighting
+│   ├── Pipelines
+│   └── Dashboards
+│
+├── VM Layer
+│   ├── Gaming
+│   ├── Office
+│   ├── Media
+│   └── Dev
+│
+├── Infrastructure Layer
+│   ├── GPU
+│   ├── Storage
+│   ├── Network
+│   └── Security
+│
+└── Hardware Layer
+    ├── EPYC
+    ├── RTX 6000
+    ├── NAS
+    └── Backbone
