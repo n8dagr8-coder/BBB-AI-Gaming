@@ -5,3 +5,10 @@ highlight-queue/
 captures/
 *.log
 backups/
+
+# Runtime captures/logs
+spectator-logs/
+highlight-queue/
+captures/
+*.log
+backups/
